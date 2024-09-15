@@ -1,0 +1,72 @@
+body {
+    background-color: gray;
+    height: 100vh;
+    background-image: url('./w-bg.jpg');
+    background-size:cover ;
+    background-position: center;
+    color: black;
+}
+header{
+    text-align: center;
+    padding: 30px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search-box{
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+.search-box #button-addon2{
+    background-color: lightblue;
+}
+.display-box{
+    text-align: center;
+}
+.display-box #error-message{
+    color: red;
+    display: none;
+}
+.display-box #city-name{
+    font-family: serif;
+    letter-spacing: 2px;
+}
+.display-box p:nth-child(3){
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+.display-box p:nth-child(4){
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: lightcyan;
+    font-weight: bold;
+}
+footer{
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+}
+footer #developer-contact{
+    color: lightcyan;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+footer #developer-contact a{
+    text-decoration: none;
+    color: lightgreen;
+    letter-spacing: 3px;
+    transition: color 0.3s;
+    
+}
+footer #developer-contact a:hover{
+    
+    color: lightyellow;
+    
+}
